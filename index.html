@@ -11,7 +11,97 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="w-10/12  mx-auto ">
+    <header>
+        <div class="bg-lime-400 rounded-2xl p-4 mt-6 flex justify-between">
+            <h1 class=" font-semibold  text-4xl ">Geometric Wizard</h1>
+        <button class=" bg-yellow-300 px-7 rounded-2xl hover:bg-sky-400">Read Blog</button>
+        </div>       
+    </header>
+    <section>
+        <!-- Shapes Section -->
+        <div class="flex gap-5 mt-6">
+            <!-- Triangle -->
+            <div>
+                <div class="card w-full shadow-2xl border border-gray-300 bg-base-100 ">
+                    <figure class="px-10 pt-10">
+                      <img src="images/triangle.png" alt="Shoes" class="rounded-xl h-40" />
+                    </figure>
+                    <div class="card-body space-y-3 items-center text-center">
+                      <h2 class="card-title">Triangle</h2>
+                      <p>Area(a) = 0.5 X b X h</p>
+                      <!-- Input actions -->
+                      <div class="flex">
+                        <input type="text" class="w-full border border-blue-500 rounded-xl" placeholder="Base">
+                        <p class="ml-2 mr-2"> cm</p>
+                        <input type="text" class="w-full border border-blue-500 rounded-xl" placeholder="Width">
+                        <p class="ml-2"> cm</p>
+                    </div>
+                      <!-- Input Action Ends -->
+                      <div class="card-actions">
+                        <button class=" btn bg-sky-400 px-20 py-2 rounded-xl w-full">Calculate</button>
+                      </div>
+                      <p class="text-xl font-semibold">Area :  <span></span></p>
+                    </div>
+                  </div>
+            </div>
+            <!-- Rectangle Card -->
+            <div>
+                <div class="card w-full  bg-base-100 shadow-2xl border border-gray-300">
+                    <figure class="px-10 pt-10">
+                      <img src="images/rectangle.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body space-y-3 items-center text-center">
+                      <h2 class="card-title">Rectangle</h2>
+                      <p>Area(a) = w X i</p>
+                      <!-- Input actions -->
+                      <div class="flex">
+                        <input type="text" class="w-full border border-blue-500 rounded-xl" placeholder="Base">
+                        <p class="ml-2 mr-2"> cm</p>
+                        <input type="text" class="w-full border border-blue-500 rounded-xl" placeholder="Width">
+                        <p class="ml-2"> cm</p>
+                    </div>
+                      <!-- Input Action Ends -->
+                      <div class="card-actions">
+                        <button class=" btn bg-sky-400 px-20 py-2 rounded-xl w-full">Calculate</button>
+                      </div>
+                      <p class="text-xl font-semibold">Area :  <span></span></p>
+                    </div>
+                  </div>
+            </div>
+            <!-- Parallelogram -->
+            <div>
+                <div class="card w-full shadow-2xl border border-gray-300">
+                    <figure class="px-10 pt-10">
+                      <img src="images/parallelogram.png" alt="Shoes" class="rounded-xl h-40" />
+                    </figure>
+                    <div class="card-body space-y-3 items-center text-center">
+                      <h2 class="card-title">Parallelogram</h2>
+                      <p>Area(a) = b X h</p>
+                      <!-- Input actions -->
+                      <div class="flex">
+                        <input type="text" class="w-full border border-blue-500 rounded-xl" placeholder="Base">
+                        <p class="ml-2 mr-2"> cm</p>
+                        <input type="text" class="w-full border border-blue-500 rounded-xl" placeholder="Width">
+                        <p class="ml-2"> cm</p>
+                    </div>
+                      <!-- Input Action Ends -->
+                      <div class="card-actions">
+                        <button class=" btn bg-sky-400 px-20 py-2 rounded-xl w-full">Calculate</button>
+                      </div>
+                      <p class="text-xl font-semibold">Area :  <span></span></p>
+                    </div>
+                  </div>
+            </div>
+    </section>
+    <!-- Result Section -->
+    <section>
+        <div class="mt-10 mx-auto border border-gray-500 rounded-2xl w-2/4 h-[200px] mb-10 shadow-2xl ">
+            <h1 class="text-center mt-3 text-2xl font-semibold">Result</h1>
+            <p> </p>
+        </div>
+    </section>
+
     
 </body>
 </html>
